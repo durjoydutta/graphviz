@@ -37,20 +37,20 @@ def draw(adj):
 
     topo_order.reverse()  # Reverse the order for correct topological sorting
 
-    dot2 = Digraph(format="svg")
+    dot = Digraph(format="svg")
 
     for u, list_v in adj.items():
         for v in list_v:
-            dot2.edge(str(u), str(v))
+            dot.edge(str(u), str(v))
 
     # Arrange nodes in topological order if no cycle is found
     rank_string = "{rank=same; " + " ".join(str(u) for u in topo_order) + "}"
-    dot2.body.append(rank_string)
+    dot.body.append(rank_string)
 
     for i, u in enumerate(topo_order):
-        dot2.node(str(u), label=f"{u}\n({i+1})", style="filled", fillcolor="lightblue")
+        dot.node(str(u), label=f"{u}\n({i+1})", style="filled", fillcolor="lightblue")
 
-    return dot2
+    return dot
 
 
 draw(adj)
