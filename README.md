@@ -1,4 +1,4 @@
-# GraphViz: Visualizing DFS & Topological Sorting of Graphs with Python & Graphviz
+# GraphViz: Visualizing DFS & Topological Sorting of Graphs with Python
 
 ## 📌 Overview
 GraphVizDFS is a Python-based tool that helps visualize **Depth First Search (DFS)** and **Topological Sorting** of Directed Acyclic Graphs (DAGs) using the `graphviz` library. It enables clear, structured representations of graphs and their traversal orders.
