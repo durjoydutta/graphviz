@@ -9,6 +9,11 @@ GraphVizDFS is a Python-based tool that helps visualize **Depth First Search (DF
 - 📊 **Topological Sorting:** Orders nodes based on topological sort and highlights them.
 - 📈 **Left-to-Right Layout:** Arranges nodes in topological order for better readability.
 
+## 🔥 Usage
+- Just upload your adjacency list in the **graph_data.py**
+- Then run the **draw_digraph.py** to visualize your graph
+- If your uploaded graph is a **DAG** (Directed Acyclic Graph), then by running **topo_sort.py** you will get a linearly ordered (topologically sorted) output file in **.png** format
+
 ### DAG Representation
 ![Screenshot 2025-02-04 194031](https://github.com/user-attachments/assets/fabe3ec2-1c31-41ed-adc7-4f66e0399db8)
 
