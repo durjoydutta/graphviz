@@ -26,7 +26,7 @@ pip install graphviz
 You may also need to install Graphviz separately:
 
 - **Windows:**
-  - Download from https://Graphviz.org
+  - Download from [https://Graphviz.org](https://graphviz.org/download/)
   
 - **Linux (Ubuntu/Debian):**
 ```bash
