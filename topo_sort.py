@@ -37,7 +37,7 @@ def draw(adj):
 
     topo_order.reverse()  # Reverse the order for correct topological sorting
 
-    dot = Digraph(format="svg")
+    dot = Digraph(format="png")
 
     for u, list_v in adj.items():
         for v in list_v:
